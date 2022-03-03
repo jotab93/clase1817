@@ -3,12 +3,29 @@
     <body>
         <h1>Formulario de registro</h1>
         <form>
-            <label for="name">Nombre:</label> <input type="text"><br><br>
-            <label for="lastname">Apellidos:</label> <input type="text"><br><br>
-            <label for="gender">Sexo:</label> <input type="radio" name="gender" value="hombre">hombre<input type="radio" value="mujer">mujer<br><br>
-            <label for="email">Correo:</label> <input type="text"><br><br>
-            <input type="checkbox">Deseo recibir información sobre novedades y ofertas<br><br>
-            <input type="checkbox">Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre protección de datos<br><br>
+            <div>
+                <label for="nombre">Nombre:</label> 
+                <input name="nombre" type="text">
+            </div><br>
+            <div>
+                <label for="apellidos">Apellidos:</label> 
+                <input type="text" name="apellidos">
+            </div><br>
+            <div>
+                <label for="genero">Sexo:</label>
+                <input type="radio" name="genero" value="hombre">hombre
+                <input type="radio" name="genero" value="mujer">mujer
+            </div><br>
+            <div>
+                <label for="email">Correo:</label>
+                <input type="text" name="email"><br>
+            </div><br>
+            <div>
+                <input type="checkbox">Deseo recibir información sobre novedades y ofertas
+            </div><br>
+            <div>
+                <input type="checkbox">Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre protección de datos
+            </div><br>
             <input type="button" value="Enviar">
         </form>
     </body>
